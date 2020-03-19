@@ -17,7 +17,7 @@ devices:
 # Device 1
 
 - datacenter: US
-  deviceNameQuery: iPhone XS
+  deviceNameQuery: iPhone X
   platformVersion: 12
   testsToRun:
   - testClass: CCICalculateLoanAmount
@@ -26,7 +26,7 @@ devices:
 # Device 2
 
 - datacenter: US
-  deviceNameQuery: iPhone X
+  deviceNameQuery: iPhone 6.*
   platformVersion: 12
   testsToRun:
   - testClass: CCIClearFields
@@ -35,5 +35,5 @@ devices:
 # Device 3
 
 - datacenter: US
-  deviceNameQuery: iPhone 8
+  deviceNameQuery: iPhone SE.*
   platformVersion: 11
